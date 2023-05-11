@@ -56,7 +56,7 @@ const HomePopularHotels = (props: Props) => {
   };
 
   return (
-    <View className="mt-5">
+    <View className="mt-0">
       <View className="flex flex-row items-center justify-between px-4">
         <SubTitle>Popular Hotels</SubTitle>
         <LinkText onPress={() => {}}>See all</LinkText>

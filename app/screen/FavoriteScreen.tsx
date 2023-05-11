@@ -1,13 +1,13 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { SafeAreaView, Text } from 'react-native';
 
 type Props = {};
 
 const FavoriteScreen = (props: Props) => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>FavoriteScreen</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 

@@ -50,7 +50,7 @@ const HomeCategories = (props: Props) => {
   };
   return (
     <FlatList
-      className="px-4 mt-5"
+      className="px-4 mt-5 pb-7"
       style={{ flexGrow: 0 }}
       data={DATA}
       renderItem={renderItem}
