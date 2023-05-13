@@ -47,6 +47,7 @@ const HotelDetailsScreen = ({ navigation }: Props) => {
         totalPrice: totalPrice,
       };
       addSale(sale);
+      navigation.navigate('Checkout');
     } else {
       Alert.alert('Error Date', 'Please select end date', [
         { text: 'Try Again', onPress: () => console.log('try again pressed') },

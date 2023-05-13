@@ -1,6 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
+import CheckoutScreen from '../screen/CheckoutScreen';
 import HotelDetailsScreen from '../screen/HotelDetailsScreen';
 import OnBoardingScreen from '../screen/OnBoardingScreen';
 import { MainStackParamList } from '../types/MainStackParamsList';
@@ -18,6 +19,7 @@ const MainNavigation = () => {
         <Stack.Screen name="OnBoarding" component={OnBoardingScreen} />
         <Stack.Screen name="Tabs" component={TabsNavigation} />
         <Stack.Screen name="HotelDetails" component={HotelDetailsScreen} />
+        <Stack.Screen name="Checkout" component={CheckoutScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
